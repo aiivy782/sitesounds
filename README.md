@@ -16,7 +16,7 @@ if you want to use this script with Docker, then execute following commands in t
 `docker build -t sitesounds .` and start by `docker run -it sitesounds`
 
 # how to use
-usage: sitesounds.py [-h] [--websites] [--useragents]
+usage: sitesounds.py [-h] [--websites] [--useragents] [--invisible]
 options:
 
 -h, --help            show this help message and exit
@@ -24,3 +24,5 @@ options:
 --websites, -w        the name of the JSON file containing website URLs (websites.json as default)
                         
 --useragents, -u      the name of the JSON file containing useragents (useragents.json as default)
+
+--invisible, -i       enable less suspicious mode by increasing requests interval
