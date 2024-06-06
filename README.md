@@ -5,7 +5,7 @@ sitesounds is a simple python script that make a web traffic noise
 
 this script make a web noise traffic to distract and confuse your ISP, in other words it just add a litter to his logs. useful if you are paranoiac or if you really care for your privacy and confidentiality in internet. 
 
-# instaling
+# installing
 
 everything is simple:
 
